@@ -71,7 +71,9 @@
 
         <form action="#">
             <label for="List of book title">List of book title:</label>
-            <select name="List of book title" id="List of book title">
+            <input name="List of book title" list="listofbook" id="List of book title">
+
+            <datalist id="listofbook">
                 <option value="The Great Gatsby">The Great Gatsby</option>
                 <option value="To Kill a Mockingbird">To Kill a Mockingbird</option>
                 <option value="1984">1984</option>
@@ -82,7 +84,10 @@
                 <option value="Animal Farm">Animal Farm</option>
                 <option value="The Grapes of Wrath">The Grapes of Wrath</option>
                 <option value="Moby-Dick">Moby-Dick</option>
-            </select>
+
+            </datalist>
+                
+            
             <br>
             <button>Submit</button>
             <br><br>
